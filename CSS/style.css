@@ -215,7 +215,10 @@ height: 250px !important;
 .hotels{
     position: relative;
     padding-top: 50px;
-    overflow: auto;
+    /* overflow: auto; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
  .hcard1{
     background: url(../images/pexels-pixabay-262048.jpg) ;
@@ -223,7 +226,7 @@ height: 250px !important;
     transition: .25s;
     border-radius: 20px;
     color: white;
-    float: left;
+    /* float: left; */
 }
 .hcard2{
     background: url(../images/pexels-pixabay-262047.jpg) ;
@@ -231,8 +234,8 @@ height: 250px !important;
     transition: .25s;
     border-radius: 20px;
     color: white;
-    float: left;
-    margin-left: 50px;
+    /* float: left; */
+    /* margin-left: 50px; */
 } 
 .hcard3{
     background: url(../images/vacations-226830_1280.jpg)  ;
@@ -240,7 +243,7 @@ height: 250px !important;
     transition: .25s;
     border-radius: 20px;
     color: white;
-    float: right;
+    /* float: right; */
 }
 .hcard1:hover{
     transform: scale(.9,.9);
@@ -302,8 +305,10 @@ height: 250px !important;
 .news{
     text-shadow: 2px 2px 2px #0174BE;
     color: #0C356A;
-    margin-left: 500px;
-    margin-top: 50px;}
+    /* margin-left: 500px;
+    margin-top: 50px; */
+    text-align: center;
+}
 /* }
     /* @media(max-width:770px){
      .divimg .image{
@@ -544,6 +549,9 @@ height: 250px !important;
     .food_img{
       clip-path: none;
       /* width: 100%; */
+    }
+    .hotels{
+       
     }
   }
   @media(max-width: 991px){
